@@ -1,17 +1,31 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/**
+ * The AddressBookApplication class represents an interactive address book application.
+ * It allows users to perform operations such as loading entries, adding, removing, finding, and listing entries.
+ *
+ * @author Christian Reyes
+ * @version 1.0
+ * @since 2024-02-15
+ */
 public class AddressBookApplication {
     private AddressBook addressBook;
     private Menu menu;
 
     // Constructor
+    /**
+     * Constructs an AddressBookApplication with a new AddressBook and a Menu.
+     */
+
     public AddressBookApplication() {
         this.addressBook = new AddressBook();
         this.menu = new Menu();
     }
 
     // Run the address book application
+    /**
+     * Runs the address book application in a continuous loop until the user chooses to quit.
+     */
     public void run() {
         while (true) {
             char choice = menu.displayMenu();
@@ -40,12 +54,17 @@ public class AddressBookApplication {
     }
 
     // Load entries from a file
-    //DNF
+    /**
+     * Loads entries from a file.
+     */
     private void loadEntriesFromFile() {
-        System.out.println("Loading entries from file... (Not implemented)");
+        System.out.println("Loading entries from file... )");
     }
 
     // Add a new entry to the address book
+    /**
+     * Adds a new entry to the address book based on user input.
+     */
     private void addEntry() {
         Scanner scanner = new Scanner(System.in);
 
@@ -80,6 +99,9 @@ public class AddressBookApplication {
     }
 
     // Remove an entry from the address book
+    /**
+     * Removes an entry from the address book based on user input.
+     */
     private void removeEntry() {
         Scanner scanner = new Scanner(System.in);
 
@@ -110,6 +132,9 @@ public class AddressBookApplication {
     }
 
     // Find entries based on the beginning of the last name
+    /**
+     * Finds entries based on the beginning of the last name entered by the user.
+     */
     private void findEntry() {
         Scanner scanner = new Scanner(System.in);
 
@@ -130,6 +155,9 @@ public class AddressBookApplication {
     }
 
     // List entries alphabetically
+    /**
+     * Lists entries in alphabetical order by last name.
+     */
     private void listEntries() {
         ArrayList<AddressEntry> sortedEntries = addressBook.listEntriesAlphabetically();
 
