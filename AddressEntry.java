@@ -25,7 +25,7 @@ public class AddressEntry {
         return lastName;
     }
 
-    // Add getters and setters for other attributes
+    
 
     @Override
     public String toString() {
