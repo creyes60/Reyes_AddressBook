@@ -39,7 +39,8 @@ public class AddressBookApplication {
         }
     }
 
-    // Load entries from a file (not implemented)
+    // Load entries from a file
+    //DNF
     private void loadEntriesFromFile() {
         System.out.println("Loading entries from file... (Not implemented)");
     }
