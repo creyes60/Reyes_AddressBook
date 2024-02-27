@@ -30,7 +30,7 @@ public class AddressEntry {
      * @param email     The email address.
      * @param phone     The phone number.
      */
-    // Constructor
+   
     public AddressEntry(String firstName, String lastName, String street, String city, String state, String zipCode, String email, String phone) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -46,12 +46,12 @@ public class AddressEntry {
      *
      * @return The last name.
      */
-    // Getters and Setters for each attribute
+   
     public String getLastName() {
         return lastName;
     }
 
-    // getters and setters for other attributes
+    
     /**
      * Returns a string representation of the AddressEntry.
      * The string includes the full name, address, email, and phone number.
