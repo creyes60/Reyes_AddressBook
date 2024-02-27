@@ -12,7 +12,7 @@ public class AddressBookApplication {
     private AddressBook addressBook;
     private Menu menu;
 
-    // Constructor
+   
     /**
      * Constructs an AddressBookApplication with a new AddressBook and a Menu.
      */
@@ -22,7 +22,7 @@ public class AddressBookApplication {
         this.menu = new Menu();
     }
 
-    // Run the address book application
+    
     /**
      * Runs the address book application in a continuous loop until the user chooses to quit.
      */
@@ -53,7 +53,6 @@ public class AddressBookApplication {
         }
     }
 
-    // Load entries from a file
     /**
      * Loads entries from a file.
      */
@@ -61,7 +60,7 @@ public class AddressBookApplication {
         System.out.println("Loading entries from file... )");
     }
 
-    // Add a new entry to the address book
+    
     /**
      * Adds a new entry to the address book based on user input.
      */
@@ -98,7 +97,7 @@ public class AddressBookApplication {
         System.out.println("Entry added successfully!");
     }
 
-    // Remove an entry from the address book
+  
     /**
      * Removes an entry from the address book based on user input.
      */
@@ -131,7 +130,7 @@ public class AddressBookApplication {
         }
     }
 
-    // Find entries based on the beginning of the last name
+    
     /**
      * Finds entries based on the beginning of the last name entered by the user.
      */
@@ -154,7 +153,7 @@ public class AddressBookApplication {
         }
     }
 
-    // List entries alphabetically
+    
     /**
      * Lists entries in alphabetical order by last name.
      */
