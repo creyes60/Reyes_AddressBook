@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Menu {
     private Scanner scanner;
 
-    // Constructor
+   
     /**
      * Constructs a Menu object with a new Scanner.
      */
@@ -18,7 +18,6 @@ public class Menu {
         this.scanner = new Scanner(System.in);
     }
 
-    // Display the menu and get user choice
     /**
      * Displays the menu options and prompts the user to enter their choice.
      *
