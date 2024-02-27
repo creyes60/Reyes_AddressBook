@@ -12,7 +12,7 @@ import java.util.Collections;
 public class AddressBook {
     private ArrayList<AddressEntry> entries;
 
-    // Constructor
+    /
     /**
      * Constructs an AddressBook object with an empty list of entries.
      */
@@ -20,7 +20,7 @@ public class AddressBook {
         this.entries = new ArrayList<>();
     }
 
-    // Add an entry to the address book
+   
     /**
      * Adds an AddressEntry to the address book.
      *
@@ -30,7 +30,7 @@ public class AddressBook {
         entries.add(entry);
     }
 
-    // Remove an entry from the address book
+  
     /**
      * Removes an AddressEntry from the address book.
      *
@@ -40,7 +40,7 @@ public class AddressBook {
         entries.remove(entry);
     }
 
-    // Search for entries by last name
+  
     /**
      * Searches for AddressEntries by last name.
      *
@@ -57,7 +57,7 @@ public class AddressBook {
         return resultSet;
     }
 
-    // List entries alphabetically
+  
     /**
      * Lists entries in the address book alphabetically by last name.
      *
